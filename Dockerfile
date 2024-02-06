@@ -24,7 +24,7 @@ COPY . /project/
 
 
 # Expose the port the app runs on
-EXPOSE 8001
+EXPOSE 8000
 
 # Command to run the application
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8001"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
